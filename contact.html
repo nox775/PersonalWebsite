@@ -5,72 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
   </head>
-  <h1 align="center">Website Personal Vladutu Alexandru</h1>
-  <font size="6">MENIU</font>
-  <hr />
-  <nav>
+  <body>
+    <h1 align="center">Website Personal Vladutu Alexandru</h1>
+    <font size="6">MENIU</font>
+    <hr />
+    <nav>
+      <ul>
+        <li>
+          <a href="home.html">
+            <font size="'5">Home</font>
+          </a>
+        </li>
+
+        <li>
+          <a href="cv.html">
+            <font size="'5">CV</font>
+          </a>
+        </li>
+        <li>
+          <a href="contact.html">
+            <font size="'5">Contact</font>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+    <h2>CONTACT</h2>
+    <hr />
+    <p>
+      Nume: Vladutu<br />
+      Prenume: Alexandru-Nicusor<br />
+      Email: alexandru.vladutu@stud.acs.upb.ro<br />
+    </p>
+    <hr />
+    <h3>ADRESA</h3>
     <ul>
       <li>
-        <a href="home.html">
-          <font size="'5">Home</font>
-        </a>
-      </li>
-
-      <li>
-        <a href="cv.html">
-          <font size="'5">CV</font>
-        </a>
+        <p>
+          Str. Cucului . Nr 2 <br />
+          Sat Baneasa, Comuna Salcia<br />
+          Jud. Teleorman, Romania<br />
+        </p>
       </li>
       <li>
-        <a href="contact.html">
-          <font size="'5">Contact</font>
-        </a>
+        <p>
+          Complexul Studențesc Regie <br />
+          P22, Splaiul Independenței 290, București<br />
+        </p>
       </li>
     </ul>
-  </nav>
-  <hr />
-  <h2>CONTACT</h2>
-  <hr />
-  <p>
-    Nume: Vladutu<br />
-    Prenume: Alexandru-Nicusor<br />
-    Email: alexandru.vladutu@stud.acs.upb.ro<br />
-  </p>
-  <hr />
-  <h3>ADRESA</h3>
-  <p>
-    Str. Cucului . Nr 2 <br />
-    Sat Baneasa, Comuna Salcia<br />
-    Jud. Teleorman, Romania<br />
-  </p>
-  <img
-    src="./imagini/map.png"
-    alt="Harta Google Maps"
-    width="670"
-    height="420"
-  />
-  <hr />
-  <h3>RETELE SOCIALIZARE</h3>
-  <ul>
-    <li>
-      <img src="./imagini/instagram.svg" alt="icon instagram" />
-      <a href="https://www.instagram.com/vladutu.alex/" target="_blank"
-        >vladut.alex</a
-      >
-    </li>
-    <li>
-      <img src="./imagini/facebook.svg" alt="icon facebook" />
-      <a href="https://www.facebook.com/Sall.ro/" target="_blank"
-        >Alexandru Vladutu</a
-      >
-    </li>
-    <li>
-      <img src="./imagini/git.svg" alt="icon github" />
-      <a href="https://github.com/nox775/" target="_blank">GitHUB</a>
-    </li>
-  </ul>
-  <hr />
-  <footer>
-    <p>Copyright (c) 2024 Vladutu Alexandru -- All Rights Reserved</p>
-  </footer>
+    <hr />
+    <img
+      src="./imagini/map.png"
+      alt="Harta Google Maps"
+      width="670"
+      height="420"
+    />
+    <hr />
+    <h3>FORMULAR DE CONTACT</h3>
+    <form action="./formular_contact.php">
+      <label for="fname">Nume:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Prenume:</label><br />
+      <input type="text" id="lname" name="lname" /><br />
+      <label for="lname">Email:</label><br />
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <input type="submit" value="Trimite" />
+    </form>
+
+    <hr />
+    <h3>RETELE SOCIALIZARE</h3>
+    <ul>
+      <li>
+        <img src="./imagini/instagram.svg" alt="icon instagram" />
+        <a href="https://www.instagram.com/vladutu.alex/" target="_blank"
+          >vladut.alex</a
+        >
+      </li>
+      <li>
+        <img src="./imagini/facebook.svg" alt="icon facebook" />
+        <a href="https://www.facebook.com/Sall.ro/" target="_blank"
+          >Alexandru Vladutu</a
+        >
+      </li>
+      <li>
+        <img src="./imagini/git.svg" alt="icon github" />
+        <a href="https://github.com/nox775/" target="_blank">GitHUB</a>
+      </li>
+    </ul>
+    <hr />
+    <footer>
+      <p>Copyright (c) 2024 Vladutu Alexandru -- All Rights Reserved</p>
+    </footer>
+  </body>
 </html>
