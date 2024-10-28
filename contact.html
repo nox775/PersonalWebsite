@@ -63,14 +63,21 @@
     />
     <hr />
     <h3>FORMULAR DE CONTACT</h3>
-    <form action="./formular_contact.php">
+    <form action="mailto:vladutu.fiz@gmail.com" method="GET">
       <label for="fname">Nume:</label><br />
       <input type="text" id="fname" name="fname" /><br />
       <label for="lname">Prenume:</label><br />
       <input type="text" id="lname" name="lname" /><br />
       <label for="lname">Email:</label><br />
-      <input type="text" id="lname" name="lname" /><br /><br />
-      <input type="submit" value="Trimite" />
+      <input type="text" id="lname" name="lname" /><br />
+      <label for="subject">Subiect:</label>
+      <br />
+      <input type="text" id="subject" name="subject" required /><br />
+
+      <label for="body">Mesaj:</label><br />
+      <textarea id="body" name="body" rows="4" required></textarea><br />
+
+      <button type="submit">Trimite</button>
     </form>
 
     <hr />
