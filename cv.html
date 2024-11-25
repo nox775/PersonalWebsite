@@ -1,87 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
-    <link rel="stylesheet" href="/CSS/home.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
   </head>
+
   <body>
-    <h1 align="center">Website Personal Vladutu Alexandru</h1>
-    <font size="6">MENIU</font>
+    <h1>Website Personal Vladutu Alexandru</h1>
+    <div class="meniu_principal">
+      <nav>
+        <ul>
+          <li>
+            <a href="home.html">
+              <div class="meniu">
+                <p>Home</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="cv.html">
+              <div class="meniu">
+                <p>CV</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="contact.html">
+              <div class="meniu">
+                <p>Contact</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-stylish">
+      <h2>Curiculum Vitae</h2>
+    </div>
     <hr />
-    <nav>
-      <ul>
+    <div class="section">
+      <div class="header-stylish">
+        <h3>PARCURS PROFESIONAL</h3>
+      </div>
+      <ul class="list_cv">
+        <li>2012-2019: Scoala Gimnaziala Salcia</li>
+        <li>2019-2023: Colegiul National "Unirea" Turnu Magurele</li>
         <li>
-          <a href="home.html">
-            <font size="'5">Home</font>
-          </a>
+          2023-prezent: UNSTPB- Facultatea de Automatica si Calculatoare-
+          Ingineria Sistemelor
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="header-stylish">
+        <h3>PROIECTE</h3>
+      </div>
+      <ul class="list_cv">
+        <li>
+          <b>LanParty</b><br />
+          Aplicatie in limbajul C de ordonare a echipelor in functie de
+          punctaje, construindu-se un campionat, folosindu-se de structuri de
+          date specifice precum liste, stive, cozi, etc.
+          <a href="https://github.com/nox775/lanParty">=> Detalii.</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="header-stylish">
+        <h3>CUNOSTIINTE</h3>
+      </div>
+      <ul class="list_cv">
+        <li>C/C++ : mediu-avansat;</li>
+        <li>HTML : incepator</li>
+        <li>Matlab :incepator</li>
+      </ul>
+    </div>
+    <div class="section">
+      <div class="header-stylish">
+        <h3>CERTIFICATE</h3>
+      </div>
+
+      <ul class="list_cv">
+        <li>Atestat Informatica;</li>
+        <li>Limba Engleza -B2;</li>
+        <li>CCNA1 -in progres;</li>
+      </ul>
+    </div>
+    <div class="section">
+      <div class="header-stylish">
+        <h3>ACTIVITATI EXTRA-CURICULARE</h3>
+      </div>
+      <ul class="list_cv">
+        <li>Olimpiada Nationala de Filosofie;</li>
+        <li>
+          Premii si Mentiuni - Olimpiada Judeteana de Fizica si Matematica;
+        </li>
+        <li>Mentiune- Olimpiada Interjudeteana de Fizica;</li>
+        <li>
+          Membru fondator al unui grup de logica aplicata si gandire critica
+          -<b>MindClub</b>;
         </li>
 
         <li>
-          <a href="cv.html">
-            <font size="'5">CV</font>
-          </a>
-        </li>
-        <li>
-          <a href="contact.html">
-            <font size="'5">Contact</font>
-          </a>
+          Participare la scoala de vara de debate si public
+          speacking-<b>Phrasea</b>;
         </li>
       </ul>
-    </nav>
-    <hr />
-    <h2 font size="6">Curiculum Vitae</h2>
-    <hr />
-    <h3>PARCURS PROFESIONAL</h3>
-    <p>
-      2012-2019: Scoala Gimnaziala Salcia <br />
-      2019-2023: Colegiul National "Unirea" Turnu Magurele <br />
-      2023-prezent: UNSTPB- Facultatea de Automatica si Calculatoare- Ingineria
-      Sistemelor
-    </p>
-    <hr />
-    <h3>PROIECTE</h3>
-    <ul>
-      <li>
-        <b>LanParty</b><br />
-        Aplicatie in limbajul C de ordonare a echipelor in functie de punctaje,
-        construindu-se un campionat, folosindu-se de structuri de date specifice
-        precum liste, stive, cozi, etc.
-        <a href="https://github.com/nox775/lanParty">=> Detalii.</a>
-      </li>
-    </ul>
-    <hr />
-    <h3>CUNOSTIINTE</h3>
-    <ul>
-      <li>
-        C/C++ : mediu-avansat;
-      </li>
-      <li>HTML : incepator</li>
-      <li>Matlab :incepator</li>
-    </ul>
-    <hr>
-    <h3>CERTIFICATE</h3>
-<ul>
-  <li>Atestat Informatica;</li>
-  <li>Limba Engleza -B2;</li>
-  <li>CCNA1 -in progres;</li>
-</ul>
-    <hr>
-    <h3>ACTIVITATI EXTRA-CURICULARE</h3>
-    <ul>
-      <li>Olimpiada Nationala de Filosofie;</li>
-      <li>Premii si Mentiuni - Olimpiada Judeteana de Fizica si Matematica;</li>
-      <li>Mentiune- Olimpiada Interjudeteana de Fizica;</li>
-      <li>
-        Membru fondator al unui grup de logica aplicata si gandire critica
-        -<b>MindClub</b>;
-        <li>Participare la scoala de vara de debate si public speacking-<b>Phrasea</b>;</li>
-      </li>
-    </ul>
-    <hr>
-     <footer>
+    </div>
+
+    <div class="header-stylish">
+      <a href="my_cv.pdf" download="my_cv.pdf">Descarca CV</a>
+    </div>
+<div class="footer_list">
+    <footer>
       <p>Copyright (c) 2024 Vladutu Alexandru -- All Rights Reserved</p>
+      <ul>
+        <li>
+          <img src="./imagini/facebook.svg" alt="icon facebook" />
+          <a href="https://www.facebook.com/Sall.ro/" target="_blank"
+            >Alexandru Vladutu</a
+          >
+        </li>
+        <li>
+          <img src="./imagini/git.svg" alt="icon github" />
+          <a href="https://github.com/nox775/" target="_blank">GitHUB</a>
+        </li>
+      </ul>
+      </div>
     </footer>
   </body>
 </html>

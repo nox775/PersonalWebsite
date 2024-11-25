@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
-    <link rel="stylesheet" href="/CSS/home.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
   </head>
 
   <body>
     <h1>Website Personal Vladutu Alexandru</h1>
-    <div>
+    <div class="meniu_principal">
       <nav>
         <ul>
-          <li>
-            <div class="meniu"><p>MENIU</p></div>
-          </li>
           <li>
             <a href="home.html">
               <div class="meniu"><p>Home</p></div>
@@ -33,85 +30,113 @@
         </ul>
       </nav>
     </div>
-    <hr />
-    <h2 class="text-border">BIOGRAFIE</h2>
+
+    <h2 class="header-stylish">BIOGRAFIE</h2>
     <div class="section">
       <img
-        class="poza_profil"
+        class="profile-photo"
         src="./imagini/im_with_me.jpeg"
         alt="O poza cu mine"
       />
-      <br />
-      <p class="section">
-        Salut! Sunt Vladutu Alexandru, student în anul II la Facultatea de
-        Automatică și Calculatoare din cadrul Universității Politehnica din
-        București.<br />
-        Originar din Turnu Măgurele, Teleorman, locuiesc în prezent în campusul
-        Regie, căminul P22. Am absolvit un liceu cu profil real, unde am
-        descoperit o pasiune profundă pentru tehnologie, fizică și matematică.
-        Convingerea mea că Politehnica este locul ideal pentru a-mi cultiva
-        aceste interese m-a adus aici, unde mă bucur de fiecare provocare și
-        oportunitate de învățare. M-am adaptat rapid la viața universitară și
-        aștept cu nerăbdare să explorez noi subiecte și să continui călătoria de
-        cunoaștere în domeniul tehnologiei și ingineriei.
-      </p>
+
+      <div class="section">
+        <p class="text_case">
+          Salut! Sunt Vladutu Alexandru, student în anul II la Facultatea de
+          Automatică și Calculatoare din cadrul Universității Politehnica din
+          București.<br />
+          Originar din Turnu Măgurele, Teleorman, locuiesc în prezent în
+          campusul Regie, căminul P22. Am absolvit un liceu cu profil real, unde
+          am descoperit o pasiune profundă pentru tehnologie, fizică și
+          matematică. Convingerea mea că Politehnica este locul ideal pentru
+          a-mi cultiva aceste interese m-a adus aici, unde mă bucur de fiecare
+          provocare și oportunitate de învățare. M-am adaptat rapid la viața
+          universitară și aștept cu nerăbdare să explorez noi subiecte și să
+          continui călătoria de cunoaștere în domeniul tehnologiei și
+          ingineriei.
+        </p>
+      </div>
     </div>
-    <div class="text-border">
+    <div class="header-stylish">
       <h3>HOBBY-URI</h3>
     </div>
     <div class="section">
-      <h4 class="titul_stilizare">SA CITESC</h4>
-      <br />
-      <p class="section">
-        In afara orelor petrecute în studiul matematicii, fizicii și
-        informaticii, îmi găsesc liniștea în paginile cărților de istorie și
-        filosofie. Anul trecut am reușit să citesc 42 de cărți, un număr mai mic
-        decât mi-aș fi dorit, dar inevitabil din cauza cerințelor universitare,
-        care îmi solicită mult timp. Dimineața este momentul meu preferat pentru
-        lectură, și mi-am propus să parcurg constant 3-4 cărți lunar, o
-        provocare pe care încerc să o împlinesc cu dedicație.
-      </p>
-      <p>Cartiile mele preferate sunt:</p>
+      <h4 class="header-stylish">SA CITESC</h4>
+      <div class="section">
+        <p class="text_case">
+          In afara orelor petrecute în studiul matematicii, fizicii și
+          informaticii, îmi găsesc liniștea în paginile cărților de istorie și
+          filosofie. Anul trecut am reușit să citesc 42 de cărți, un număr mai
+          mic decât mi-aș fi dorit, dar inevitabil din cauza cerințelor
+          universitare, care îmi solicită mult timp. Dimineața este momentul meu
+          preferat pentru lectură, și mi-am propus să parcurg constant 3-4 cărți
+          lunar, o provocare pe care încerc să o împlinesc cu dedicație.
+        </p>
+      </div>
+      <p class="text_case">Cartiile mele preferate sunt:</p>
       <br />
 
       <div class="imagini_carti">
-        <div>
+        <figure>
           <img
             src="./imagini/padurea_spanz_carte.webp"
             width="200"
             height="200"
+            alt="padurea_spanz_carte"
           />
           <figcaption>Padurea Spanzuratilor. Editura Litera</figcaption>
-        </div>
-        <div>
-          <img src="./imagini/platon.jpg" width="150" height="200" />
+        </figure>
+
+        <figure>
+          <img
+            src="./imagini/platon.jpg"
+            alt="platon_carte"
+            width="150"
+            height="200"
+          />
           <figcaption>Platon.Opere Integrale I.Humanitas</figcaption>
-        </div>
-        <div>
+        </figure>
+
+        <figure>
           <img
             src="./imagini/cel_mai_bogat_om_din_babilon.jpg"
             width="200"
             height="200"
+            alt="cel_mai_bogat_om_din_babilon"
           />
           <figcaption>Cel mai bogat om din babilon.Editura Litera</figcaption>
-        </div>
+        </figure>
       </div>
     </div>
     <div class="section">
-      <h4 class="titul_stilizare">SA FAC SPORT</h4>
-      <br />
-      <p>
-        Am început să fac sport de mic, iar copilăria la țară mi-a oferit o
-        libertate neprețuită – să alerg liber, să explorez, și să mă bucur de
-        natură. Fotbalul este o pasiune constantă, un joc care îmi aduce energie
-        și bucurie. Când timpul îmi permite, profit de răcoarea serilor pentru a
-        ieși la alergat, savurând momentele de liniște și reconectare cu natura.
-      </p>
+      <h4 class="header-stylish">SA FAC SPORT</h4>
+      <div class="section">
+        <p class="text_case">
+          Am început să fac sport de mic, iar copilăria la țară mi-a oferit o
+          libertate neprețuită – să alerg liber, să explorez, și să mă bucur de
+          natură. Fotbalul este o pasiune constantă, un joc care îmi aduce
+          energie și bucurie. Când timpul îmi permite, profit de răcoarea
+          serilor pentru a ieși la alergat, savurând momentele de liniște și
+          reconectare cu natura.
+        </p>
+      </div>
+      <img src="./imagini/fotbal.jpg" alt="minge_fotbal" />
     </div>
-
-    <hr />
-    <footer>
-      <p>Copyright (c) 2024 Vladutu Alexandru -- All Rights Reserved</p>
-    </footer>
+    <div class="footer_list">
+      <footer>
+        <p>Copyright (c) 2024 Vladutu Alexandru -- All Rights Reserved</p>
+        <ul>
+          <li>
+            <img src="./imagini/facebook.svg" alt="icon facebook" />
+            <a href="https://www.facebook.com/Sall.ro/" target="_blank"
+              >Alexandru Vladutu</a
+            >
+          </li>
+          <li>
+            <img src="./imagini/git.svg" alt="icon github" />
+            <a href="https://github.com/nox775/" target="_blank">GitHUB</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>
