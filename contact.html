@@ -8,30 +8,38 @@
   </head>
   <body>
     <h1>Website Personal Vladutu Alexandru</h1>
-    <div class="meniu_principal">
-      <nav>
-        <ul>
-          <li>
-            <a href="home.html">
-              <div class="meniu"><p>Home</p></div>
-            </a>
-          </li>
-          <li>
-            <a href="cv.html">
-              <div class="meniu"><p>CV</p></div>
-            </a>
-          </li>
-          <li>
-            <a href="contact.html">
-              <div class="meniu"><p>Contact</p></div>
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <nav class="nav-bar">
+      <div class="logo">
+        <a href="home.html"><img src="./imagini/logo.webp" alt="Logo" /></a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu" id="menu">
+        <li>
+          <a href="home.html"><p class="meniu_font">Home</p></a>
+        </li>
+        <li>
+          <a href="contact.html"><p class="meniu_font">Contact</p></a>
+        </li>
+        <li>
+          <a href="cv.html"><p class="meniu_font">CV</p></a>
+        </li>
+      </ul>
+    </nav>
+    <script src="./JSS/script.js"></script>
+
+    <div class="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
     </div>
+
     <div class="section">
       <h2 class="header-stylish">CONTACT</h2>
-      <p>
+      <p class="text_case">
         Nume: Vladutu<br />
         Prenume: Alexandru-Nicusor<br />
         Email: alexandru.vladutu@stud.acs.upb.ro<br />
@@ -39,7 +47,7 @@
     </div>
     <div class="section">
       <h3 class="header-stylish">ADRESA</h3>
-      <ul>
+      <ul class="list_cv">
         <li>
           <p>
             Str. Cucului . Nr 2 <br />
@@ -56,12 +64,7 @@
       </ul>
     </div>
     <div>
-      <img
-        src="./imagini/map.png"
-        alt="Harta Google Maps"
-        width="670"
-        height="420"
-      />
+      <img class="responsive" src="./imagini/map.png" alt="Harta Google Maps" />
     </div>
     <div class="section">
       <h3 class="header-stylish">FORMULAR DE CONTACT</h3>

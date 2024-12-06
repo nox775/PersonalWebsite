@@ -9,26 +9,33 @@
 
   <body>
     <h1>Website Personal Vladutu Alexandru</h1>
-    <div class="meniu_principal">
-      <nav>
-        <ul>
-          <li>
-            <a href="home.html">
-              <div class="meniu"><p>Home</p></div>
-            </a>
-          </li>
-          <li>
-            <a href="cv.html">
-              <div class="meniu"><p>CV</p></div>
-            </a>
-          </li>
-          <li>
-            <a href="contact.html">
-              <div class="meniu"><p>Contact</p></div>
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <nav class="nav-bar">
+      <div class="logo">
+        <a href="home.html"><img src="./imagini/logo.webp" alt="Logo" /></a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu" id="menu">
+        <li>
+          <a href="home.html"><p class="meniu_font">Home</p></a>
+        </li>
+        <li>
+          <a href="contact.html"><p class="meniu_font">Contact</p></a>
+        </li>
+        <li>
+          <a href="cv.html"><p class="meniu_font">CV</p></a>
+        </li>
+      </ul>
+    </nav>
+    <script src="./JSS/script.js"></script>
+
+    <div class="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
     </div>
 
     <h2 class="header-stylish">BIOGRAFIE</h2>
@@ -79,28 +86,32 @@
         <figure>
           <img
             src="./imagini/padurea_spanz_carte.webp"
-            width="200"
-            height="200"
+            width="350"
+            height="350"
             alt="padurea_spanz_carte"
           />
           <figcaption>Padurea Spanzuratilor. Editura Litera</figcaption>
         </figure>
+      </div>
 
+      <div class="imagini_carti">
         <figure>
           <img
             src="./imagini/platon.jpg"
             alt="platon_carte"
-            width="150"
-            height="200"
+            width="250"
+            height="300"
           />
           <figcaption>Platon.Opere Integrale I.Humanitas</figcaption>
         </figure>
+      </div>
 
+      <div class="imagini_carti">
         <figure>
           <img
             src="./imagini/cel_mai_bogat_om_din_babilon.jpg"
-            width="200"
-            height="200"
+            width="300"
+            height="300"
             alt="cel_mai_bogat_om_din_babilon"
           />
           <figcaption>Cel mai bogat om din babilon.Editura Litera</figcaption>
@@ -119,7 +130,7 @@
           reconectare cu natura.
         </p>
       </div>
-      <img src="./imagini/fotbal.jpg" alt="minge_fotbal" />
+      <img class="responsive" src="./imagini/fotbal.jpg" alt="minge_fotbal" />
     </div>
     <div class="footer_list">
       <footer>
